@@ -53,3 +53,9 @@ jobs:
           DB_URL: jdbc:postgresql://localhost:5432/risk_management
           DB_USERNAME: postgres
           DB_PASSWORD: postgres
+
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: risk-management-system-jar
+          path: target/*.jar
