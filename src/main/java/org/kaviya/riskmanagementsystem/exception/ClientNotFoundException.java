@@ -1,4 +1,7 @@
 package org.kaviya.riskmanagementsystem.exception;
+public class ClientNotFoundException extends RuntimeException {
 
-public class ClientNotFoundException {
+    public ClientNotFoundException(String message) {
+        super(message);
+    }
 }
