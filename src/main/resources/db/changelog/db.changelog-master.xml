@@ -8,5 +8,6 @@
         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
     <include file="db/changelog/changes/001-create-clients-table.xml"/>
+    <include file="db/changelog/002-create-user-roles-tables.xml"/>
 
 </databaseChangeLog>
