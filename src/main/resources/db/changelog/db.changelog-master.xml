@@ -7,6 +7,7 @@
         http://www.liquibase.org/xml/ns/dbchangelog
         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
-    <include file="db/changelog/changes/001-create-clients-table.xml"/>
+    <include file="db/changelog/changes/001-create-client-table.xml"/>
+    <include file="db/changelog/changes/002-create-user-roles-tables.xml"/>
 
 </databaseChangeLog>
